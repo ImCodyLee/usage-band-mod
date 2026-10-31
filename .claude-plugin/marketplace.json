@@ -1,0 +1,16 @@
+{
+  "name": "usage-band-mod",
+  "owner": {
+    "name": "ImCodyLee"
+  },
+  "metadata": {
+    "description": "usage-band: a Claude Code usage band above the prompt"
+  },
+  "plugins": [
+    {
+      "name": "usage-band",
+      "source": "./usage-band",
+      "description": "A band above the prompt with context, 5-hour and weekly limits, session cost and a prompt-cache timer"
+    }
+  ]
+}
